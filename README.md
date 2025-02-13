@@ -31,4 +31,4 @@
   link: https://lucid.app/lucidchart/c91c1c22-1b48-437a-bb14-f86b12ccac74/edit?invitationId=inv_da32ce4e-0c36-4d37-b9bc-709a49822af1&page=xRqSZOCHk9x3#
 
 - Repositorio GitHub (primera versión):
-  link: [https://github.com/Alfonso-RTX/api-futbol](https://github.com/Alfonso-RTX/futbol-live)
+  link: https://github.com/Alfonso-RTX/Futbol-Live/tree/main

@@ -1,11 +1,33 @@
-# Sample Snack app
+- Nombre de la Aplicación
+  FutbolLive
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+- Objetivo General y Descripción de la Aplicación
+  FutbolLive es una aplicación móvil desarrollada con Expo y React Native que permite a los usuarios consultar los partidos de fútbol  programados y recibir notificaciones antes de que comiencen. La aplicación obtiene la información de la API de Football Data y la muestra de forma clara y accesible.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+- Tipo de Arquitectura y Justificación
+  Se utiliza una arquitectura basada en **Componentes y Hooks de React**, siguiendo el patrón **MVU (Model-View-Update)** para la actualización eficiente de la interfaz de usuario. Esto permite:
+- Separación de responsabilidades mediante componentes reutilizables.
+- Manejo eficiente del estado con `useState` y `useEffect`.
+- Facilidad de escalabilidad y mantenimiento.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Framework Seleccionado para Desarrollo:
+  Se ha seleccionado **Expo + React Native** debido a:
+  - Su facilidad de configuración y desarrollo rápido.
+  - Compatibilidad con dispositivos Android e iOS sin necesidad de código nativo adicional.
+  - Soporte para notificaciones push y acceso a APIs del dispositivo.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- Estrategia de Versionamiento
+  Se usará **Git Flow** como estrategia de versionamiento con las siguientes ramas:
+  - `main`: Contendrá la versión estable de la aplicación.
+  - `develop`: Integración de nuevas características antes de fusionarlas en `main`.
+  - `feature/nombre_funcionalidad`: Para el desarrollo de nuevas funcionalidades.
+  - `bugfix/nombre_bug`: Para corregir errores detectados.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- Wireframes/Mockups de la Aplicación
+  link: https://www.figma.com/proto/tJpovV8BW1krUuwFIlOnC7/FutbolLive?node-id=15-9&p=f&t=iOcXqNxLSyj73jVH-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+
+- Diagrama de Flujo de la Aplicación
+  link: https://lucid.app/lucidchart/c91c1c22-1b48-437a-bb14-f86b12ccac74/edit?invitationId=inv_da32ce4e-0c36-4d37-b9bc-709a49822af1&page=xRqSZOCHk9x3#
+
+- Repositorio GitHub (primera versión)
+  link: [https://github.com/Alfonso-RTX/api-futbol](https://github.com/Alfonso-RTX/futbol-live)

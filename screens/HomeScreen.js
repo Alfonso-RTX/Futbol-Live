@@ -8,7 +8,24 @@ const categories = [
   { title: '📰 Noticias', image: require('../assets/news.png'), color: '#1E88E5' },
 ];
 
-
+export const HomeScreen = () => {
+  return (
+    <ScrollView contentContainerStyle={styles.container}>
+      <Text style={styles.title}>⚽ FutbolLive</Text>
+      {categories.map((category, index) => (
+        <TouchableOpacity key={index} style={[styles.card, { backgroundColor: category.color }]}> 
+          <ImageBackground source={category.image} style={styles.image}>
+            <Text style={styles.cardText}>{category.title}</Text>
+          </ImageBackground>
+        </TouchableOpacity>
+      ))}
+      <View style={styles.footer}>
+        <Text style={styles.footerItem}>🏠 Inicio</Text>
+        <Text style={styles.footerItem}>⚙️ Configuración</Text>
+      </View>
+    </ScrollView>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
